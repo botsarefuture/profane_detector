@@ -30,9 +30,11 @@ class ProfaneDetector:
         did_found, words = self._detect_internal(language, sentence)
         return did_found
 
-# Example usage:
-prof = ProfaneDetector()
+
 
 if __name__ == "__main__":
-    detected = prof.detect_api("en", "Fuck")
+    # Example usage:
+    prof = ProfaneDetector()
+
+    detected = prof.detect_api(input("Language: "), input("Swear sentence: "))
     print(detected)
