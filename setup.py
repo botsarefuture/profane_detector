@@ -4,12 +4,16 @@ setup(
     name='profane_detector',
     version='0.1',
     packages=find_packages(),
+    package_data={
+        'profane_detector': ['swear-words/*'],
+    },
     install_requires=[
-        'word_finder',
+        'fuzzywuzzy',
+        'python-Levenshtein'
     ],
     entry_points={
         'console_scripts': [
-            'profane_detector=profane_detector:main',
+            'profane_detector = profane_detector:main',
         ],
     },
 )
