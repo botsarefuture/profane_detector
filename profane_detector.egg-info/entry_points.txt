@@ -1,0 +1,3 @@
+[console_scripts]
+profane_detector = profane_detector:main
+
