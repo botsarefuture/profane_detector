@@ -1,0 +1,19 @@
+# pyproject.toml
+[project]
+name = "profane_detector"
+version = "1.0.0"
+authors = [
+  { name="Verso Vuorenmaa", email="verso.vuorenmaa@sinimustaahallitustavastaan.org" },
+]
+description = "A small profane_detector"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/botsarefuture/profane_detector"
+Issues = "https://github.com/botsarefuture/profane_detector/issues"

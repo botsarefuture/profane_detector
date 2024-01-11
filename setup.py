@@ -4,6 +4,9 @@ setup(
     name='profane_detector',
     version='0.1',
     packages=find_packages(),
+    authors = [
+    { name="Verso Vuorenmaa", email="verso.vuorenmaa@sinimustaahallitustavastaan.org" },
+    ],
     package_data={
         'profane_detector': ['swear-words/*'],
     },

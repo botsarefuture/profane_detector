@@ -1,10 +1,15 @@
 Metadata-Version: 2.1
-Name: profane-detector
-Version: 0.1
-Summary: UNKNOWN
-Home-page: UNKNOWN
-License: UNKNOWN
-Platform: UNKNOWN
+Name: profane_detector
+Version: 1.0.0
+Summary: A small profane_detector
+Author-email: Verso Vuorenmaa <verso.vuorenmaa@sinimustaahallitustavastaan.org>
+Project-URL: Homepage, https://github.com/botsarefuture/profane_detector
+Project-URL: Issues, https://github.com/botsarefuture/profane_detector/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
 
-UNKNOWN
-
+# ProfanityDetector
+A Python library for profanity detection in text, providing a customizable ProfaneDetector class. Easily integrate into your projects to filter or flag content.

@@ -1,4 +1,5 @@
 README.md
+pyproject.toml
 setup.py
 profane_detector/__init__.py
 profane_detector/profane_detector.py
@@ -6,8 +7,6 @@ profane_detector/word_finder.py
 profane_detector.egg-info/PKG-INFO
 profane_detector.egg-info/SOURCES.txt
 profane_detector.egg-info/dependency_links.txt
-profane_detector.egg-info/entry_points.txt
-profane_detector.egg-info/requires.txt
 profane_detector.egg-info/top_level.txt
 profane_detector/swear-words/LICENSE
 profane_detector/swear-words/README.md
